@@ -1,0 +1,26 @@
+#portrait{
+    float:right;
+    position: relative;
+    width: 650px;
+    height: 600px;
+}
+
+h1{
+    font-size: 570%;
+}
+#main_p{
+    position: absolute;
+}
+
+#bluesq_p {
+    position: absolute;
+}
+
+#shadow_p{
+    position: absolute;
+}
+
+#pinksq_p{
+    position: absolute;
+}
+
