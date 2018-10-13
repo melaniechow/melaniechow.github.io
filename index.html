@@ -18,11 +18,21 @@
     <!-- Styles.CSS -->
     <link rel="stylesheet" href="/styles.css">
 
+    <!-- Bootstrap -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+    
+    <!-- ScrollMagic -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js" crossorigin="anonymous"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js/js/scrollmagic/uncompressed/ScrollMagic.js"></script>
+
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   </head>
 
   <body>
+
 
     <!-- 
     <div class="container">
@@ -37,14 +47,16 @@
   -->
 
   <div class="container">
+    <br><br><br>
     <div class="row">
-      <div class="col center-block">
+      <div class="col">
         <br>
         <div id="intro">
             <br><br>
               <h1> Hi, I'm Melanie </h1>
+              <small style="color:gray"> <i> B.S in Computer Science, Minor in Statistics </i> </small> <br><br>
               <p>
-                A current 2nd year at the University of Chicago interested in AI, databases, and UI/UX design.
+                I'm a current 2nd year at the University of Chicago interested in AI, databases, and UI/UX design. 
                 I love drawing, crafting, and building things that make life more efficient and productive.
               </p>
               <br>
@@ -55,27 +67,163 @@
               <a href="https://www.github.com/melaniechow"><i class="fa fa-github"></i></a>
               &nbsp;
               <a href="https://www.linkedin.com/in/melaniechow23/"><i class="fa fa-linkedin"></i></a>
+
+              <br><br><br>
+                <div style="color:gray"> <i class="fa fa-arrow-down"></i> </div>
           </div>
       </div>
+
       <div class="row">
-            <div id="portrait">
-                <div id="pinksq_p">
-                  <img src="assets/pinksquiggle.png" alt="" style="max-width: 100%; max-height:100%">
-                </div>
-                <div id="shadow_p">
-                    <img src="assets/shadows.png" alt="" style="max-width: 100%; max-height:100%">
-                </div>
-                <div id="bluesq_p">
-                  <img src="assets/bluesquiggle.png" alt="" style="max-width: 100%; max-height:100%">
-                </div>
-                <div id="main_p">
-                    <img src="assets/portrait1.png" alt="" style="max-width: 100%; max-height:100%">
-                  </div>
-              </div> 
+          <div class="portrait" data-aos="slide-left">
+              <div id="pinksq_p">
+                <img src="assets/pinksquiggle.png" alt="" style="max-width: 100%; max-height:100%">
+              </div>
+              <div id="shadow_p">
+                  <img src="assets/shadows.png" alt="" style="max-width: 100%; max-height:100%">
+              </div>
+              <div id="bluesq_p">
+                <img src="assets/bluesquiggle.png" alt="" style="max-width: 100%; max-height:100%">
+              </div>
+              <div id="main_p">
+                  <img src="assets/portrait1.png" alt="" style="max-width: 100%; max-height:100%">
+              </div>
+          </div>
+      </div>
+
+    </div>
+
+    
+<br>
+    
+    <div data-aos="fade-up">
+      <h2> More About Me: </h2>
+    </div>
+
+    <!--
+    <div class="section" data-aos="fade-up">
+      <div class="row">
+          <div class="col center-block">
+              I'm currently a <b> Software Engineer </b> at Veda Grace Dermatology, a startup where AI meets skincare.
+          </div>
+          <div class="row">
+              <img src="./assets/bluesquiggle.png" style="width: 200px; height:100px">
+          </div> 
       </div>
     </div>
-    <p style="color:lightslategray"> <i> big changes are coming to this site soon </i> <i class="fa fa-exclamation-circle"></i> </p>       
+  -->
+
+  <div class="section" data-aos="fade-down" data-aos-duration="4000">
+    
+      <div class="row">
+          <img src="./assets/veda.png" style="max-width: 300px; max-height: 100px; margin:10px;">
+          <div class="col center" style="max-width: 50%">
+            <small style="color:gray"> September 2018 - Present </small>
+            <br>
+            I'm currently a Software Engineer at <b> Veda Grace Dermatology</b>, an AI meets skincare startup thats working to bring professional skincare to the masses, in a quick and easy way.
+            <!-- and <b>Content Carnivores</b>, a company that uses machine learning to generate social media content. -->
+          </div>
+      </div>
   </div>
+
+
+    <div class="section" data-aos="fade-down" data-aos-delay="800">
+        <div class="row">
+            <div class="col center-block" style="max-width: 50%">
+              <small style="color:gray"> June 2018 - September 2018 </small>
+              <br>
+              This past summer I was a Software Development Intern at <b> Medivis </b>, a medical visualization startup specializing in AR. 
+              <br><br>
+              I migrated anatomy parts into a database and built a corresponding web interface for both internal and external use. 
+              <br>
+              
+              <br>
+              <a href="https://medivis.com" target="_blank" class="btn btn-outline-dark btn-sm"> 
+                Learn More
+              </a>
+            </div>
+          
+                <img src="http://entrepreneur.nyu.edu/wp-content/uploads/2017/06/MediVis-Logo-bigger.png" style="max-width: 250px; max-height: 250px;">           
+        </div>
+    </div>
+
+    <div class="section" data-aos="fade-down" data-aos-delay="800">
+        <div class="row">
+          <br><br><br>
+            <img src="./assets/saferoute.png" style="max-width: 250px; max-height: 250px; margin: 30px;">           
+            <div class="col center-block" style="max-width: 50%">
+              <small style="color:gray"> September 2018 </small>
+              <br>
+              <b>Project SafeRoute </b> is a web application that determines the safest route home based on public crime data. 
+              
+              The application gives each route a 'safety score', and generates a crime heat map with interactive and informative markers.
+              <br><br>
+              
+              My inspiration for this project came from friends and family who wanted to feel safe when running at night, or walking in neighborhoods they didn't know well.
+              
+              <br><br>
+              <a href="http://safe-route-app.herokuapp.com/" target="_blank" class="btn btn-outline-dark btn-sm"> 
+                Learn More
+              </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section" data-aos="fade-down"  data-aos-delay="800" data-aos-duration="4000">
+        <div class="row">
+                      
+            <div class="col center-block" style="max-width: 50%">
+              <small style="color:gray"> September 2018 - Present </small>
+              <br>
+              I'm also currently an Associate at <b> International Leadership Council (ILC) : Entrepreneurship</b>, UChicago's premier student business organization. 
+              <br> <br>
+              There, I created a startup that raised over $5,000 in 100 days, and won the award for Most-Profit-Made in the club’s 100 Day Startup Challenge.
+              
+              <br><br>
+              <a href="http://ilc.uchicago.edu/" target="_blank" class="btn btn-outline-dark btn-sm"> 
+                Learn More
+              </a>
+            </div>
+
+            <img src="data:image/jpeg;base64,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REBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQf/Z" style="max-width: 250px; max-height: 250px;"> 
+        </div>
+    </div>
+
+    <div class="section" data-aos="fade-down"  data-aos-delay="800" data-aos-duration="4000">
+        <div class="row">
+            <img src="https://environmentnewyork.org/sites/environment/files/NYE_logo_notag_2.jpg" style="max-height: 160px; margin:40px"> 
+
+            <div class="col center-block" style="max-width: 50%">
+              <small style="color:gray"> July 2017 - August 2017 </small>
+              <br>
+              Before I went off to college, I also worked for <b> Environment New York</b>, a non-profit environmental advocacy organization, as a field manager and canvassar. 
+              <br><br>
+              I fundraised over $3,000 in 3 weeks to fund research on keeping waterways clean, and to promote environmental awareness in the local NY area.
+              <br><br>
+              <a href="https://environmentnewyork.org" target="_blank" class="btn btn-outline-dark btn-sm"> 
+                Learn More
+              </a>
+            </div>
+
+            
+        </div>
+    </div>
+    
+  <div class="text-center">
+  <i style="color:dimgrey"> For more background about me, feel free to visit my resume, or contact me directly at 
+    <a href="mailto:melaniechow23@gmail.com"> melaniechow23@gmail.com</a>. </i>
+
+    <br><br>
+
+  </div>
+  </div>
+
+</div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
