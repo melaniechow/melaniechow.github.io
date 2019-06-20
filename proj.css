@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap');
+h1 {
+    font-size: 570%;
+}
+
+ul,
+li {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    font-size: 95%;
+}
+
+body {
+    position: relative;
+}
+
+.links {
+    font-size: 120%;
+    font-family: Montserrat;
+    padding-top: 15px;
+    margin-right: 2%;
+    padding-bottom: 0px;
+}
+
+.projlinks {
+    font-size: 80%;
+    font-family: Montserrat;
+    margin: 0px;
+    width: 120px;
+    display: block;
+}
+
+a {
+    color: #ACACAC;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.projtitle {
+    font-family: Montserrat;
+}
