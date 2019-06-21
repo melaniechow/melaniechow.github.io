@@ -1,89 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+
+    <title>Bootstrap Example</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Melanie Chow </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-    <base href="/">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
-    <!-- favicon-->
-    <link rel="icon" type="image/x-icon" href="./assets/icon.png">
+    <link rel="stylesheet" href="project.css">
 
-    <!-- Bootstrap -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Styles.CSS -->
-    <link rel="stylesheet" href="melaniechow.github.io/proj.css">
-
-    <!-- Bootstrap -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
-
-    <!-- aos -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
+<!--NAVBAR-->
+<div class="links">
+    <nav class="navbar">
+        <div class="navbar-expand ml-auto navbar-nav">
+            <div class="navbar-nav">
+                <a class="nav-link active hvr-float" href="index.html">HOME</a> &nbsp;
+                <a class="nav-link active hvr-float" href="projects.html">PROJECTS</a> &nbsp;
+                <a class="nav-link active hvr-float" href="about.html">ABOUT</a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<br>
+
 <body>
 
-    <!--NAVBAR-->
-    <div class="links">
-        <nav class="navbar">
-            <div class="navbar-expand ml-auto navbar-nav">
-                <div class="navbar-nav">
-                    <a class="nav-link active hvr-float" href="./melaniechow.github.io/index.html">HOME</a> &nbsp;
-                    <a class="nav-link active hvr-float" href="./melaniechow.github.io/projects.html">PROJECTS</a> &nbsp;
-                    <a class="nav-link active hvr-float" target="_blank" href="https://crime-cluster-map.appspot.com/">ABOUT</a>
+    <div style="max-width: 90%">
+        <div class="row">
+
+            <!-- save this for last few 
+            <div class="col-1">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-dc-tab" data-toggle="pill" href="#v-pills-dc" role="tab" aria-controls="v-pills-dc" aria-selected="true">DestressCyborg</a>
+                    <a class="nav-link" id="v-pills-hice-tab" data-toggle="pill" href="#v-pills-hice" role="tab" aria-controls="v-pills-hice" aria-selected="false">HICE</a>
+                    <a class="nav-link" id="v-pills-sr-tab" data-toggle="pill" href="#v-pills-sr" role="tab" aria-controls="v-pills-sr" aria-selected="false">SafeRoute</a>
+                    <a class="nav-link" id="v-pills-securl-tab" data-toggle="pill" href="#v-pills-securl" role="tab" aria-controls="v-pills-securl" aria-selected="false">SecURL</a>
                 </div>
             </div>
-        </nav>
-    </div>
+        -->
+            <div class="col-3">
 
-    <div class="container">
-        <h2 style="font-family: Montserrat;">
-            PROJECTS
-        </h2>
+                <ul class="nav nav-pills flex-column" style="padding-left: 1%;">
+                    <br><br> Jump to: <br>
+                    <li><a class="nav-link my-1" href="#v-pills-hice">HICE</a></li>
+                    <li><a class="nav-link my-1" href="#v-pills-securl">SecURL</a></li>
+                    <li><a class="nav-link my-1" href="#v-pills-dc">Destress <br> Cyborg</a></li>
+                    <li><a class="nav-link  my-1" href="#v-pills-cc">Compliance <br> Carnivores</a></li>
 
-        <nav>
-            <ul id="projLinks">
-                <li> HICE </li>
-                <li> DestressCyborg </li>
-                <li> SafeRoute </li>
-                <li> AnatomyX: Albus </li>
-                <li> Compliance Carnivores </li>
-                <li> SecURL </li>
-                <li> Email-Tracking </li>
-            </ul>
-        </nav>
+                    <li><a class="nav-link my-1" href="#v-pills-sr">SafeRoute</a></li>
+                    <li><a class="nav-link my-1" href="#v-pills-ax">Albus: <br> AnatomyX</a></li>
+                    <li><a class="nav-link my-1" href="#v-pills-other"> More </a></li>
 
-        <div class="projectsection" id="DestressCyb">
-            <div class="projtitle">
-                Destress Cyborg
+                </ul>
             </div>
 
+
+
+            <div class="col-9">
+                <div class="tab-content" id="v-pills-tabContent">
+
+                    <div class="projsection" id="v-pills-hice" role="tabpanel" aria-labelledby="v-pills-hice-tab">
+                        <div class="row">
+                            <div class="col">
+                                <div id="intro" data-aos="fade-up" data-aos-duration="3001">
+                                    <h1> HICE </h1>
+                                    <small style="color:gray"> <i> HICE on my Wrist <br> June 2019 </i> </small> <br><br>
+                                    <p class="projdesc">
+                                        Hice is a body temperature regulation device. It serves as <i>both</i> a portable hand-warmer and ice-pack by detecting the temperature of your skin. When you're cold, HICE warms you up, and when you're hot, HICE
+                                        cools you down.
+                                    </p>
+
+                                    <a href="https://www.youtube.com/watch?v=2FJ7gL_br_M&feature=youtu.be" target="_blank" class="btn btn-outline-dark btn-sm"> 
+                                        See the Demo
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div data-aos="fade-left">
+                                <img src="assets/port_pics copy/hice.png" class="projpic">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projsection" id="v-pills-securl" role="tabpanel" aria-labelledby="v-pills-securl-tab">
+                        <div class="row">
+                            <div class="col">
+                                <div id="intro" data-aos="fade-up" data-aos-duration="3001">
+                                    <h1> SecURL </h1>
+                                    <small style="color:gray"> <i> HCI Usable Security <br> May 2019 </i> </small> <br><br>
+                                    <p class="projdesc">
+                                        SecURL is a browser web-extension that analyzes the security of a website's certificates. Given a URL, it provides a data-driven explanation of what a given certificate is telling the user in an easy-to-read way.
+
+
+                                    </p>
+                                    <!--
+                                    <a href="https://journeyfoods.io/" target="_blank" class="btn btn-outline-dark btn-sm"> 
+                                                More
+                                            </a>
+                                    -->
+                                </div>
+                            </div>
+                            <div data-aos="fade-left">
+                                <img src="assets/port_pics copy/securl.png" class="projpic">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projsection" id="v-pills-dc" role="tabpanel" aria-labelledby="v-pills-dc-tab">
+                        <div class="row">
+                            <div class="col">
+                                <div id="intro" data-aos="fade-up" data-aos-duration="3001">
+                                    <h1> Destress Cyborg </h1>
+                                    <small style="color:gray"> <i> Uncommon Hacks 2019 <br> Most Uncommon Hack  (1st Place) & Best IoT Hack </i> </small> <br><br>
+                                    <p class="projdesc">
+                                        Destress Cyborg <i> (proof-of-concept) </i> is a wearable tech that analyzes brain waves to blur out/replace visual objects that induce stress. <br><br> It uses an EEG headband and a camera to recognize visual triggers,
+                                        and is made portable using a Qualcomm DragonBoard 401c
+                                    </p>
+
+                                    <a href="https://www.youtube.com/watch?v=jHRWivbY-7A&fbclid=IwAR0KP33mtG0UGR5GXu2IA4hmKVvS57ojfwRd5DXbz5dxZjAQi76FS2dTeeM" target="_blank" class="btn btn-outline-dark btn-sm"> 
+                                    See the Demo
+
+                                    
+                                    </a>
+                                </div>
+                            </div>
+                            <div data-aos="fade-left">
+                                <img src="assets/port_pics copy/destresscyb.png" class="projpic">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="projsection" id="v-pills-cc" role="tabpanel" aria-labelledby="v-pills-cc-tab">
+                        <div class="row">
+                            <div class="col">
+                                <div id="intro" data-aos="fade-up" data-aos-duration="3001">
+                                    <h1> Compliance Carnivores </h1>
+                                    <small style="color:gray"> <i> Content Carnivores <br> Fall 2018 - Winter 2019 </i> </small> <br><br>
+                                    <p class="projdesc">
+                                        Lead a project focused on the compliance of online financial content with SEC/FINRA regulations. Worked with a team to compile research on "bad actor" companies and case laws, and built a platform to detect future compliance violations.
+                                    </p>
+                                    <!-- 
+                                    <a href="https://journeyfoods.io/" target="_blank" class="btn btn-outline-dark btn-sm"> 
+                                         More
+                                    </a>
+                                    -->
+                                </div>
+                            </div>
+                            <div data-aos="fade-left">
+                                <img src="assets/port_pics copy/content.png" class="projpic">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="projsection" id="v-pills-sr" role="tabpanel" aria-labelledby="v-pills-sr-tab">
+                        <div class="row">
+                            <div class="col">
+                                <div id="intro" data-aos="fade-up" data-aos-duration="3001">
+                                    <h1> SafeRoute </h1>
+                                    <small style="color:gray"> <i> ByteHacks 2018 </i> </small> <br><br>
+                                    <p class="projdesc">
+                                        SafeRoute is a web application that determines the safest route home based on public crime data. The application gives each route a 'safety score,'' and generates a heat map with interactive and informative markers.
+                                        <br>
+                                        <Br> My inspiration for this project came from friends and family who wanted to feel safe when running at night, or when walking in neighborhoods they didn't know well.
+                                    </p>
+                                    <!-- 
+                                    <a href="https://journeyfoods.io/" target="_blank" class="btn btn-outline-dark btn-sm"> 
+                                    More
+                                </a>
+                                -->
+                                </div>
+                            </div>
+                            <div data-aos="fade-left">
+                                <img src="assets/port_pics copy/saferoute.png" class="projpic">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projsection" id="v-pills-ax" role="tabpanel" aria-labelledby="v-pills-ax-tab">
+                        <div class="row">
+                            <div class="col">
+                                <div id="intro" data-aos="fade-up" data-aos-duration="3001">
+                                    <h1> Albus: AnatomyX </h1>
+                                    <small style="color:gray"> <i> Medivis: AnatomyX <br> June 2018 - September 2018 </i> </small> <br><br>
+                                    <p class="projdesc">
+                                        Albus is the database I built and designed to store anatomy part data at Medivis. I created a corresponding REST API and an online data-editing platform for internal and external use.
+                                    </p>
+                                    <!-- 
+                                    <a href="https://journeyfoods.io/" target="_blank" class="btn btn-outline-dark btn-sm"> 
+                                                 More
+                                            </a>
+                                            -->
+                                </div>
+                            </div>
+                            <div data-aos="fade-left">
+                                <img src="assets/port_pics copy/medivis.png" class="projpic">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="projsection" id="v-pills-other" role="tabpanel" aria-labelledby="v-pills-ax-tab">
+                        <div class="row">
+                            <div class="col">
+                                <div id="intro" data-aos="fade-up" data-aos-duration="3001">
+                                    <h1> More</h1>
+                                    <ul>
+                                        <li> <a href="/assets/Email_Tracking_Final_Report___Fixed.pdf">Mental Models on Email Tracking <i> (Research Paper)</i> </a> </li>
+                                        <br>
+                                        <li> <a href="https://medium.com/@melaniechow/3d-printed-wearable-button-bdae2b5273ef">Light Me Up: 3D Wearable </a> </li>
+                                        <br>
+                                        <li> <a href="https://medium.com/@melaniechow/using-a-rotary-encoder-on-an-arduino-18f543ae7f78"> Rotary Encoder: Arduino   </a> </li>
+                                        <br>
+                                        <li> <a href="https://medium.com/@melaniechow/using-a-joystick-sensor-on-an-arduino-3498d7399464"> Joystick: Arduino  </a> </li>
+                                    </ul>
+                                    <br><br>
+                                    <!-- 
+                                    <p class="projdesc">
+                                        <h4> GreenFeed </h4>
+                                        <h4> Light Me Up</h4>
+                                        <h4> ChiTCP </h4>
+                                        <h4> ChIRC</h4>
+
+                                    </p>
+                                    ->
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+            <!-- 
+        <div class="col-9 ">
+            <div class="tab-content " id="v-pills-tabContent ">
+                <div class="tab-pane fade show active " id="v-pills-dc " role="tabpanel " aria-labelledby="v-pills-dc-tab ">
+                    <h1>Destress Cyborg</h1>
+                </div>
+                <div class="tab-pane fade " id="v-pills-hice " role="tabpanel " aria-labelledby="v-pills-hice-tab ">
+                    <h1>HICE</h1>
+                </div>
+                <div class="tab-pane fade " id="v-pills-sr " role="tabpanel " aria-labelledby="v-pills-sr-tab ">
+                    <h1>SafeRoute</h1>
+                </div>
+                <div class="tab-pane fade " id="v-pills-securl " role="tabpanel " aria-labelledby="v-pills-securl-tab ">
+                    <h1>SecURL</h1>
+                </div>
+            </div>
         </div>
-    </div>
+    -->
+                                </div>
 
-
-
-    <div id="list-example" class="list-group">
-        <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
-    </div>
-    <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-        <h4 id="list-item-1">Item 1</h4>
-        <p>...</p>
-        <h4 id="list-item-2">Item 2</h4>
-        <p>...</p>
-        <h4 id="list-item-3">Item 3</h4>
-        <p>...</p>
-        <h4 id="list-item-4">Item 4</h4>
-        <p>...</p>
-    </div>
-
+                            </div>
 </body>
+
+</html>
